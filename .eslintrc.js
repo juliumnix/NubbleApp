@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: '@react-native',
+  extends: ['@react-native'],
   plugins: ['import'],
   overrides: [
     {
@@ -35,6 +35,7 @@ module.exports = {
             'newlines-between': 'always',
           },
         ],
+        'react-native/no-inline-styles': 'off',
       },
     },
   ],
