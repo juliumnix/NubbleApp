@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {
   BottomTabBarProps,
   createBottomTabNavigator,
@@ -6,7 +8,7 @@ import { FavoriteScreen } from '@screens/app/FavoriteScreen/FavoriteScreen';
 import { HomeScreen } from '@screens/app/HomeScreen/HomeScreen';
 import { MyProfileScreen } from '@screens/app/MyProfileScreen/MyProfileScreen';
 import { NewPostScreen } from '@screens/app/NewPostScreen/NewPostScreen';
-import React from 'react';
+
 import { AppTabBar } from './AppTabBar';
 
 export type AppTabBottomTabParamList = {

@@ -12,6 +12,7 @@ import {
 import { useAppSafeArea } from '@hooks/useAppSafeArea';
 import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { $shadowProps } from 'src/theme/theme';
+
 import { AppTabBottomTabParamList } from './AppTabNavigator';
 import { mapScreenToProps } from './mapScreenToProps';
 

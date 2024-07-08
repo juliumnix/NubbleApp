@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { AuthScreenProps } from 'src/routes/navigationType';
+
 import { Button } from '../../../components/Button/Button';
 import { Icon } from '../../../components/Icon/Icon';
 import { Screen } from '../../../components/Screen/Screen';
