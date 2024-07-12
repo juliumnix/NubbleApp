@@ -12,7 +12,8 @@
       "@hooks/*": ["src/hooks/*"],
       "@navigation/*": ["src/navigation/*"],
       "@types/*": ["src/types/*"],
-      "@hooks/*": ["src/hooks/*"]
+      "@theme": ["src/theme"],
+      "@domain": ["src/domain"]
     }
   }
 }

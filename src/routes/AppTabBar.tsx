@@ -11,7 +11,8 @@ import {
 } from '@components/index';
 import { useAppSafeArea } from '@hooks/useAppSafeArea';
 import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
-import { $shadowProps } from 'src/theme/theme';
+
+import { $shadowProps } from '../theme/theme';
 
 import { AppTabBottomTabParamList } from './AppTabNavigator';
 import { mapScreenToProps } from './mapScreenToProps';
@@ -40,7 +41,6 @@ export function AppTabBar({
           });
 
           if (!isFocused && !event.defaultPrevented) {
-            // The `merge: true` option makes sure that the params inside the tab screen are preserved
             navigation.navigate({
               name: route.name,
               params: route.params,

@@ -17,6 +17,7 @@ module.exports = {
           '@styles': './src/styles',
           '@utils': './src/utils',
           '@routes': './src/routes',
+          '@domain': './src/domain',
         },
       },
     ],
